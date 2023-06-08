@@ -6,10 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tulienge</title><link
   rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-
-  <link rel="shortcut icon" href="Images/favicon.ico" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="css/style.css"> <!-- You can link your CSS file here -->
+  <link rel="stylesheet" href="style.css"> <!-- You can link your CSS file here -->
 </head>
 
 <body>
@@ -190,7 +188,7 @@
 
  <!-- projects section design -->
 
- <section class="projects" id= "projects">
+ <!-- <section class="projects" id= "projects">
   <h2 class="heading">My <span>Projects</span><span class="animate scroll" style="--i:1;"></span></h2>
 
   <div class="projects-container">
@@ -199,9 +197,8 @@
 
       <div class="projects-layer">
         <h4>Search Box</h4>
-        <p>Hi folks, today I am going to solve an Hard rated hack the box machine,Search created
-          by dmw0ng.So without any further intro, let'sf jump in.</p>
-        <a href="portfolia-1.html"><i class = 'bx bx-link-external ajax-portfolio'></i></a>
+        <p>Hi folks, today I am going to solve an </p>
+        <a href="portfolia-1.html" data-id="1"><i class = 'bx bx-link-external'></i></a>
       </div>
       <span class="animate scroll" style="--i:2;"></span>
     </div>
@@ -294,8 +291,174 @@
       <span class="animate scroll" style="--i:10;"></span>
     </div>
   </div>
- </section>
+ </section> -->
 
+ <section class="projects" id= "projects">
+  <h2 class="heading">My <span>Projects</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+ <div id="portfolio" class="section">
+  <div class="section-wrapper block">
+      <div class="content-1300">
+          <div id="portfolio-wrapper" class="relative">
+              <div class="category-filter">
+                  <div class="category-filter-icon"><span class="animate scroll" style="--i:1;"></span></div>
+              </div>
+              <div class="category-filter-list button-group filters-button-group">
+                  <div class="button is-checked" data-filter="*">All</div>
+                  <div class="button" data-filter=".text">Text</div>
+                  <div class="button" data-filter=".video"></div>
+                  <div class="button" data-filter=".image">Image</div>
+              </div>
+              <div class="portfolio-load-content-holder"></div>
+              <div class="grid" id="portfolio-grid">
+                  <div class="grid-sizer"></div>
+
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/spider.png" alt="">
+                      <div class="projects-layer">
+                        <h4>Spider Box</h4>
+                        <p>Search a HackTheBox System </p>
+                        <a class="item-link ajax-portfolio" href="portfolia-0.html" data-id="0"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:2;"></span>
+                    </div>
+                  </div>
+
+                  
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/search.png" alt="">
+                      <div class="projects-layer">
+                        <h4>Search Box</h4>
+                        <p>Search a HackTheBox System </p>
+                        <a class="item-link ajax-portfolio" href="portfolia-1.html" data-id="1"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:3;"></span>
+                    </div>
+                  </div>
+
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/undetected.png" alt="">
+                      <div class="projects-layer">
+                        <h4>Undetected</h4>
+                        <p>Undetected a HackTheBox System  </p>
+                        <a class="item-link ajax-portfolio" href="portfolia-2.html" data-id="2"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:4;"></span>
+                    </div>
+                  </div>
+
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/unicode.png" alt="">
+                      <div class="projects-layer">
+                        <h4>Unicode</h4>
+                        <p>Unicode a HackTheBox System  </p>
+                        <a class="item-link ajax-portfolio" href="portfolia-3.html" data-id="3"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:5;"></span>
+                    </div>
+                  </div>
+
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/paper.png" alt="">
+                      <div class="projects-layer">
+                        <h4>Paper</h4>
+                        <p>Paper a HackTheBox System </p>
+                        <a class="item-link ajax-portfolio" href="portfolia-4.html" data-id="4"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:6;"></span>
+                    </div>
+                  </div>
+
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/pandora.png" alt="">
+                      <div class="projects-layer">
+                        <h4>Pandora</h4>
+                        <p>Pandora a HackTheBox System </p>
+                        <a class="item-link ajax-portfolio" href="portfolia-5.html" data-id="5"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:7;"></span>
+                    </div>
+                  </div>
+
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/late.png" alt="">
+                      <div class="projects-layer">
+                        <h4>Late</h4>
+                        <p>Late a HackTheBox System </p>
+                        <a class="item-link ajax-portfolio" href="portfolia-6.html" data-id="6"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:8;"></span>
+                    </div>
+                  </div>
+
+                  
+
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/screensaver2.jpg" alt="">
+                      <div class="projects-layer">
+                        <h4>Android</h4>
+                        <p>Accers an Android application </p>
+                        <a class="item-link ajax-portfolio" href="portfolia-7.html" data-id="7"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:9;"></span>
+                    </div>
+                  </div>
+
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/koki.png" alt="">
+                      <div class="projects-layer">
+                        <h4>Java</h4>
+                        <p>Koki Sushi a java project</p>
+                        <a class="item-link ajax-portfolio" href="portfolia-8.html" data-id="8"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:10;"></span>
+                    </div>
+                  </div>
+
+                  <div id="p-item-1" class="grid-item  ">
+                    <div class="projects-box " >
+                      <img src="./images/laravel.png" alt="">
+                      <div class="projects-layer">
+                        <h4>Laravel</h4>
+                        <p>Car-Hoonicorn a Laravel websites </p>
+                        <a class="item-link ajax-portfolio" href="portfolia-9.html" data-id="9"><i class = 'bx bx-link-external'></i></a>
+                      </div>
+                      <span class="animate scroll" style="--i:11;"></span>
+                    </div>
+                  </div>
+
+                 
+                  <div class="grid-item element-item p-one-third image">
+                      <a class="item-link" href="images/adminlaravel.png" data-rel="prettyPhoto[portfolio]">
+                          <img src="images/adminlaravel.png" alt="" />
+                          <div class="portfolio-text-holder">
+                              <div class="portfolio-text-wrapper">
+                                  <p class="portfolio-text">Car-Hoonicorn</p>
+                                  <p class="portfolio-cat">Laravel</p>
+                              </div>
+                          </div>
+                      </a>
+                      <span class="animate scroll" style="--i:12;"></span>
+                  </div>
+
+                 
+
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+</section>
  <!-- skills section design -->
 
  <section class="skills" id = "skills">
@@ -449,6 +612,7 @@
 
 
 
+
 <!-- footer design -->
 <footer class="footer">
     <div class="footer-text">
@@ -467,10 +631,16 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-<script src="Js/script.js"></script>
+<script src="js/script.js"></script>
 
-    <script src="Js/jquery.js"></script>
-    <script src='Js/imagesloaded.pkgd.js'></script>
-    <script src='Js/main.js'></script>
+    <!--Load JavaScript-->
+    <script src="js/jquery.js"></script>
+    <script src='js/imagesloaded.pkgd.js'></script>
+    <script src='js/jquery.prettyPhoto.js'></script>
+    <script src='js/isotope.pkgd.js'></script>
+    <script src='js/jquery.smartmenus.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src='js/circle-progress.min.js'></script>
+    <script src='js/main.js'></script>
 </body>
 </html>
