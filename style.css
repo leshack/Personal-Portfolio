@@ -1691,7 +1691,7 @@ div.pp_default .pp_description {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background-color: #f37b83;
+    background-color: var(--main-color);
 }
 
 /* ===================================
