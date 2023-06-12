@@ -1146,7 +1146,34 @@ section:nth-child(odd).animate.scroll,
     text-align: center;
   }
 }
+@media (max-width: 414px ) {
+  .home {
+    
+    background: url('./images/a1d.png') no-repeat;
+      
+    background-position: -160px 100px;
+    
+  }
+}
 
+@media (max-width:412px ){
+  .home {
+   
+    background: url('./images/a1d.png') no-repeat;
+      
+    background-position: -160px 190px;
+    
+  }
+}
+@media (max-height:732 ) {
+  .home {
+   
+    background: url('./images/a1d.png') no-repeat;
+      
+    background-position: -160px 190px;
+    
+  }
+}
 @media (max-width: 400px ) {
   .home {
     
@@ -1156,7 +1183,6 @@ section:nth-child(odd).animate.scroll,
     
   }
 }
-
 @media (max-width: 371px ) {
 
   .home {
