@@ -40,8 +40,6 @@ window.onscroll = () => {
     }
 
   }); 
-   
-
     //sticky header
 
     let header = document.querySelector('header');
@@ -54,9 +52,9 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 
     // animation projects on scroll
-    // let testimonial-container = document.querySelector('testimonial-container');
-    // testimonial-container.classList.toggle('show-animate', this.innerHeight + this.scrollY  >= document.scrollingElement.
-    // scrollHeight);
+     //let badge = document.querySelector('badge');
+     //badge.classList.toggle('show-animate', this.innerHeight + this.scrollY  >= document.scrollingElement.
+     //scrollHeight);
 
     // animation footer on scroll
     let footer = document.querySelector('footer');

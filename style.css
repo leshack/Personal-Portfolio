@@ -1020,6 +1020,7 @@ section:nth-child(odd).animate.scroll,
 }
 
 .about.show-animate .animate.scroll,
+/*.badge.show-animate .animate.scroll,*/
 .education.show-animate .animate.scroll,
 .projects.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll,
